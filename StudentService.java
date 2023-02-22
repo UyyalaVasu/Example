@@ -7,9 +7,8 @@ public interface StudentService {
 
 	public String findNameById(Integer id);
 	public List<Integer> findAge(String s_name);
-	int a=10;
-	int b=20;
-	System.out.println("Sum is : "+(a+b));
-	
+	public void deleteById(Integer id);
+	public Student saveStudent(Student student);
+	System.out.println("Student Service file");
 
 }
